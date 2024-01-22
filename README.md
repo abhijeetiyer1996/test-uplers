@@ -1,4 +1,5 @@
-I have divided the answers into 3 html files 
+I have divided the answers into 3 html files:
+
 Answer - 1 : centerDiv.html
 Answer - 2 : tooltip.html
 Answer - 3 : dataDisplay.html
