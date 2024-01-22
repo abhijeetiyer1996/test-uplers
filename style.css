@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* centering using Flex*/
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6895D2;
+    padding: 50px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+/* using grids */
+.text-placeholder{
+    color:#fff;
+    font-family: sans-serif;
+    width: 300px;
+    height: 100px;
+    display: grid;
+    place-items: center;
+}
+
+.tooltipTable{
+    border: 1px solid #fff;
+    width: 100%;
+    height: 100%;
+    border-spacing: 50px;
+}
+
+td {
+    border: 1px solid #fff;
+    position : relative;
+}
+th {
+    border: 1px solid #fff;
+}
+
+.tooltip{
+    background: rgba(0,0,0, 0.5);
+    color:#fff;
+    padding: 10px 20px; 
+    position: absolute;
+    right: -30px;
+    top: -30px;
+    display: none;
+    text-align: center;
+}
+
+td:hover .tooltip{
+    display: block;
+}
+
+.contentTable{
+    border: 1px solid #fff;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color:#fff;
+}
